@@ -33,9 +33,12 @@ nav ul {
     justify-content: center;
     list-style: none;
 }
+nav li:first-child a {
+    margin-left:0;
+}
 nav a {
     /* margin: 0 1rem; */
-    margin: 0 0.5rem;
+    margin: 0 0.2rem;
     color: #566b78;
     text-decoration: none;
     text-transform: uppercase;
@@ -90,6 +93,15 @@ header a, header button {
 header a:hover, header button:hover {
     background: crimson;
     border-color: crimson;
+}
+pre {
+    width: auto;
+    max-width: 300px;
+    white-space: pre-wrap;/* css-3 */
+    white-space: -moz-pre-wrap;/* Mozilla, с 1999 года*/
+    white-space: -pre-wrap;/* Opera 4-6 */
+    white-space: -o-pre-wrap;/* Opera 7 */
+    word-wrap: break-word;/* Internet Explorer 5.5+ */
 }
 .nes-header {
     background-color: #7c7c7c;
